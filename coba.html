@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Muhammad Fajar</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #C5A3FF;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #FFCBC1;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #A79AFF;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Muhammad Fajar Tahyatul Arifin</h2>
+</header>
+
+<section>
+  <nav>
+    <ol>
+      <li><a href="#">Tetap Tersenyum Walau Sedang Disakiti</a></li>
+      <li><a href="#">Nonton Windah Sambil Makan</a></li>
+      <li><a href="#">Nonton Wanpis Sampai Tamat</a></li>
+    </ol>
+  </nav>
+  
+  <article>
+    <h1>ebaut mi</h1>
+    <p>Muhammad Fajar Lahir di Tangerang 5 Juni 2007 Tinggal Di Komplek Griya Indah Serpong Blok C5 No 3</p>
+    <p>Sekolah SMKN 6 KOTA TANGERANG SELATAN</p>
+    <img src="nisa.jpeg" width="150px">
+    <p>Makanan Kesukaan</p>
+    <ul>
+        <li>Cumi Saus Tiram</li>
+        <li>Sate Padang</li>
+        <li>Nasi Lemak KFC</li>
+    </ul>
+
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+

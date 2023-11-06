@@ -1,0 +1,38 @@
+#wrapper {
+    margin: auto;
+    width: 750px;
+    height: auto;
+    border: 1px solid red;
+   
+   
+}
+
+#header {
+    height: 80px;
+    border: 1px solid blue;
+}
+
+
+#sidebar {
+    float: left;
+    margin-right: 20px;
+    width: 180px;
+    height: 330px;
+    border: 1px solid red;
+}
+
+#content {
+    float: left;
+    width: 544px;
+    height: 330px;
+    border: 1px solid green;
+}
+
+#footer {
+    width: 746px;
+    position: relative;
+    right: -276px;
+    clear: both;
+    height: 50px;
+    border: 1px solid blue;
+}
